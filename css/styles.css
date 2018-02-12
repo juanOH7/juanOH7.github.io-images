@@ -1,0 +1,78 @@
+body{
+    background-color: aquamarine;
+}
+
+
+#mainC{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container{
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#izqB{
+    order:1;
+}
+
+#dimg1{
+    order: 2;
+}
+
+
+#dimg1>img,#dimg2>img,#dimg3>img,#dimg4>img,#dimg5>img{
+    height: 100%;
+    width: 100%;
+}
+
+#dimg2{
+    order: 3;
+}
+#dimg3{
+    order: 4;
+}
+#dimg4{
+    order: 5;
+}
+#dimg5{
+    order: 6;
+}
+
+#derB{
+    order:7;
+}
+
+#dimg1,#dimg2,#dimg3,#dimg4,#dimg5{
+    height: 150px;
+    width: 25%;
+    display: flex;
+    margin: 13px;
+    background-color: orange;
+}
+
+#dimgBig{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 425px;
+    padding: 4px;
+    background-color: antiquewhite;
+}
+
+#bigone{
+    order: 1;
+    left: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+#bigone>img{
+    height: 100%;
+    width: 50%;
+}
